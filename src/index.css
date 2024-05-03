@@ -1,0 +1,69 @@
+:root {
+  --primary: #e2914f;
+  --secondary: #994d0e;
+  --tertiary: #f2f2f2;
+  --quaternary: #e5e5e5;
+  --quinary: #bdbdbd;
+  --senary: #828282;
+  --septenary: #4f4f4f;
+  --octonary: #333333;
+  --nonary: #1f1f1f;
+  --denary: #141414;
+  --elevenary: #0a0a0a;
+  --twelvary: #000000;
+  --bg: #f2f2f2;
+  --bg-2: #e5e5e5;
+  --bg-3: #bdbdbd;
+  --bg-4: #828282;
+  --bg-5: #4f4f4f;
+  --bg-6: #333333;
+  --bg-7: #1f1f1f;
+  --bg-8: #141414;
+  --bg-9: #0a0a0a;
+  --bg-10: #000000;
+  --text: #333333;
+  --text-2: #4f4f4f;
+  --text-3: #828282;
+  --text-4: #bdbdbd;
+  --text-5: #e5e5e5;
+  --text-6: #f2f2f2;
+  --text-7: #994d0e;
+  --text-8: #e2914f;
+  --text-9: #1f1f1f;
+  --text-10: #0a0a0a;
+  --text-11: #000000;
+  --text-12: #ffffff;
+  --text-13: #f2f2f2;
+  --text-14: #e5e5e5;
+  --text-15: #bdbdbd;
+  --text-16: #828282;
+  --text-17: #4f4f4f;
+  --text-18: #333333;
+  --text-19: #1f1f1f;
+  --text-20: #141414;
+
+  --bg-light: #fff9f4;
+  --bg-dark: #231507;
+}
+
+.wallet-adapter-button-trigger {
+  background-image: linear-gradient(87.03deg, #e2914f -0.04%, #994d0e 99.96%);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* bg-[url('/background.jpg')]  */
+
+body{
+  background: var(--bg-light)
+}
