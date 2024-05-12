@@ -50,8 +50,8 @@ export default function Home() {
                 tabSelection={tabSelection}
                 setTabSelection={setTabSelection}
             />
-            <BakeCardLvlOne />
-            {/* {tabSelection === config.LEVEL_ONE && <BakeCardLvlOne />} */}
+            {/* <BakeCardLvlOne /> */}
+            {tabSelection === config.LEVEL_ONE && <BakeCardLvlOne />}
             {/* {tabSelection === config.LEVEL_TWO && <BakeCardLvlTwo />}
             {tabSelection === config.LEVEL_THREE && <BakeCardLvlThree />} */}
             <Footer />
